@@ -12,9 +12,10 @@ var geojson = {
       },
       "properties": {
         "type": "inst",
-        "name": "American Ambassador's Residence",
+        "name": "American Ambassador’s Residence",
         "address": "2 Avenue Iena",
-        "link": ""
+        "link": "",
+        "tier": "2"
       }
     },
     {
@@ -30,7 +31,8 @@ var geojson = {
         "type": "inst",
         "name": "American Ambulance Field Service ",
         "address": "21 rue Raynouard",
-        "link": "http://www.afs.org/afs-history-and-archives/"
+        "link": "http://www.afs.org/afs-history-and-archives/",
+        "tier": "2"
       }
     },
     {
@@ -46,7 +48,8 @@ var geojson = {
         "type": "inst",
         "name": "American Embassy",
         "address": "5 rue de Chaillot",
-        "link": ""
+        "link": "",
+        "tier": "1"
       }
     },
     {
@@ -62,7 +65,8 @@ var geojson = {
         "type": "inst",
         "name": "American Hospital",
         "address": "63 boulevard Victor Hugo",
-        "link": "https://www.american-hospital.org/en/american-hospital-of-paris/dedicated-to-freedom.html"
+        "link": "https://www.american-hospital.org/en/american-hospital-of-paris/dedicated-to-freedom.html",
+        "tier": "2"
       }
     },
     {
@@ -76,9 +80,10 @@ var geojson = {
       },
       "properties": {
         "type": "inst",
-        "name": "American Women's Club",
+        "name": "American Women’s Club",
         "address": "61 rue Boissiere",
-        "link": ""
+        "link": "",
+        "tier": "2"
       }
     },
     {
@@ -94,7 +99,8 @@ var geojson = {
         "type": "patron",
         "name": "Marguerite Bassiano ",
         "address": "4 rue du Cirque",
-        "link": ""
+        "link": "",
+        "tier": "4"
       }
     },
     {
@@ -110,7 +116,8 @@ var geojson = {
         "type": "patron",
         "name": "Tania Whitman ",
         "address": "10 Avenue Alphonse XIII",
-        "link": ""
+        "link": "",
+        "tier": "4"
       }
     },
     {
@@ -126,7 +133,8 @@ var geojson = {
         "type": "patron",
         "name": "George Dillon",
         "address": "41 Rue Galilee",
-        "link": "https://en.wikipedia.org/wiki/George_Dillon_(poet)"
+        "link": "https://en.wikipedia.org/wiki/George_Dillon_(poet)",
+        "tier": "3"
       }
     },
     {
@@ -142,7 +150,8 @@ var geojson = {
         "type": "patron",
         "name": "Mme Alexandre",
         "address": "1 Avenue de Versailles",
-        "link": ""
+        "link": "",
+        "tier": "4"
       }
     },
     {
@@ -158,7 +167,8 @@ var geojson = {
         "type": "patron",
         "name": "Mrs Thornton Baker",
         "address": "52 Ave Henri-Martin",
-        "link": ""
+        "link": "",
+        "tier": "4"
       }
     },
     {
@@ -174,7 +184,8 @@ var geojson = {
         "type": "patron",
         "name": "Helen Green Baldwin",
         "address": "30 Rue de Bassano",
-        "link": "https://en.wikipedia.org/wiki/James_Mark_Baldwin"
+        "link": "https://en.wikipedia.org/wiki/James_Mark_Baldwin",
+        "tier": "3"
       }
     },
     {
@@ -190,7 +201,8 @@ var geojson = {
         "type": "patron",
         "name": "Bianca Bienenfeld",
         "address": "1 Rue Charles Dickens",
-        "link": "https://en.wikipedia.org/wiki/Bianca_Lamblin"
+        "link": "https://en.wikipedia.org/wiki/Bianca_Lamblin",
+        "tier": "3"
       }
     },
     {
@@ -206,7 +218,8 @@ var geojson = {
         "type": "patron",
         "name": "Claude Bourdet",
         "address": "47 Avenue Iena",
-        "link": "https://en.wikipedia.org/wiki/Claude_Bourdet"
+        "link": "https://en.wikipedia.org/wiki/Claude_Bourdet",
+        "tier": "3"
       }
     },
     {
@@ -222,7 +235,8 @@ var geojson = {
         "type": "patron",
         "name": "Madame Busy",
         "address": "22 Rue de Alboni",
-        "link": ""
+        "link": "",
+        "tier": "4"
       }
     },
     {
@@ -238,7 +252,8 @@ var geojson = {
         "type": "patron",
         "name": "Ruth Camp",
         "address": "5 Square Lamartine",
-        "link": ""
+        "link": "",
+        "tier": "4"
       }
     },
     {
@@ -254,7 +269,8 @@ var geojson = {
         "type": "patron",
         "name": "Philip Carr",
         "address": "29 Rue de Montevideo",
-        "link": "http://www.unz.org/Author/CarrPhilip"
+        "link": "http://www.unz.org/Author/CarrPhilip",
+        "tier": "3"
       }
     },
     {
@@ -270,7 +286,8 @@ var geojson = {
         "type": "patron",
         "name": "Jean de Cayeux",
         "address": "8 Rue Alfred-Bruneau",
-        "link": ""
+        "link": "",
+        "tier": "4"
       }
     },
     {
@@ -286,7 +303,8 @@ var geojson = {
         "type": "patron",
         "name": "Marcel-Georges Chambaz",
         "address": "10 Rue Greuze",
-        "link": "http://www.worldcat.org/title/organes-de-gestion-de-la-societe-anonyme/oclc/492173276"
+        "link": "http://www.worldcat.org/title/organes-de-gestion-de-la-societe-anonyme/oclc/492173276",
+        "tier": "3"
       }
     },
     {
@@ -302,7 +320,8 @@ var geojson = {
         "type": "patron",
         "name": "Maryse Charbonnel",
         "address": "27 Avenue Pierre 1er de Serbie",
-        "link": ""
+        "link": "",
+        "tier": "4"
       }
     },
     {
@@ -318,7 +337,8 @@ var geojson = {
         "type": "patron",
         "name": "Elisabeth de Gramont",
         "address": "69 Rue Raynouard",
-        "link": "https://en.wikipedia.org/wiki/%C3%89lisabeth_de_Gramont"
+        "link": "https://en.wikipedia.org/wiki/%C3%89lisabeth_de_Gramont",
+        "tier": "3"
       }
     },
     {
@@ -334,7 +354,8 @@ var geojson = {
         "type": "patron",
         "name": "W.H. Culbert",
         "address": "67 Avenue Victor Hugo",
-        "link": ""
+        "link": "",
+        "tier": "4"
       }
     },
     {
@@ -350,7 +371,8 @@ var geojson = {
         "type": "patron",
         "name": "Dalsace",
         "address": "5 Avenue Alphonse XIII",
-        "link": ""
+        "link": "",
+        "tier": "4"
       }
     },
     {
@@ -366,7 +388,8 @@ var geojson = {
         "type": "patron",
         "name": "Lucien Devies",
         "address": "177 Rue de la Pompe",
-        "link": "https://fr.wikipedia.org/wiki/Lucien_Devies"
+        "link": "https://fr.wikipedia.org/wiki/Lucien_Devies",
+        "tier": "3"
       }
     },
     {
@@ -382,7 +405,8 @@ var geojson = {
         "type": "patron",
         "name": "Louise Hanson-Dyer",
         "address": "17 Rue Benjamin Franklin",
-        "link": "https://en.wikipedia.org/wiki/Louise_Hanson_Dyer"
+        "link": "https://en.wikipedia.org/wiki/Louise_Hanson_Dyer",
+        "tier": "3"
       }
     },
     {
@@ -398,7 +422,8 @@ var geojson = {
         "type": "patron",
         "name": "Madame Espitalier",
         "address": "43 Rue Michel Ange",
-        "link": "http://www.worldcat.org/search?q=au%3AEspitalier%2C+Albert%2C&dblist=638&fq=ap%3A%22espitalier%2C+albert%22&qt=facet_ap%3A"
+        "link": "http://www.worldcat.org/search?q=au%3AEspitalier%2C+Albert%2C&dblist=638&fq=ap%3A%22espitalier%2C+albert%22&qt=facet_ap%3A",
+        "tier": "3"
       }
     },
     {
@@ -414,7 +439,8 @@ var geojson = {
         "type": "patron",
         "name": "Mme des Francs",
         "address": "68 Rue Singer",
-        "link": ""
+        "link": "",
+        "tier": "4"
       }
     },
     {
@@ -430,7 +456,8 @@ var geojson = {
         "type": "patron",
         "name": "Cecile Fabre",
         "address": "47 Boulevard de Beausejour",
-        "link": ""
+        "link": "",
+        "tier": "4"
       }
     },
     {
@@ -446,7 +473,8 @@ var geojson = {
         "type": "patron",
         "name": "W.H. Finger",
         "address": "3 Rue Louis David",
-        "link": ""
+        "link": "",
+        "tier": "4"
       }
     },
     {
@@ -462,7 +490,8 @@ var geojson = {
         "type": "patron",
         "name": "Sybil Greenich",
         "address": "34 Rue Molitor",
-        "link": ""
+        "link": "",
+        "tier": "4"
       }
     },
     {
@@ -478,7 +507,8 @@ var geojson = {
         "type": "patron",
         "name": "Patrick Gregory",
         "address": "12 Villa Guibert",
-        "link": ""
+        "link": "",
+        "tier": "4"
       }
     },
     {
@@ -494,7 +524,8 @@ var geojson = {
         "type": "patron",
         "name": "Mr. Haltel",
         "address": "6 rue Boileau",
-        "link": ""
+        "link": "",
+        "tier": "4"
       }
     },
     {
@@ -510,7 +541,8 @@ var geojson = {
         "type": "patron",
         "name": "Jackson",
         "address": "50 Rue Desbordes-Valmore",
-        "link": ""
+        "link": "",
+        "tier": "4"
       }
     },
     {
@@ -526,7 +558,8 @@ var geojson = {
         "type": "patron",
         "name": "Pierre de Lanux",
         "address": "34 Rue des Vignes",
-        "link": "https://en.wikipedia.org/wiki/Eyre_de_Lanux"
+        "link": "https://en.wikipedia.org/wiki/Eyre_de_Lanux",
+        "tier": "3"
       }
     },
     {
@@ -542,7 +575,8 @@ var geojson = {
         "type": "patron",
         "name": "Comtesse de Lubersac",
         "address": "1 Rue Charles Lamoureux",
-        "link": ""
+        "link": "",
+        "tier": "4"
       }
     },
     {
@@ -558,7 +592,8 @@ var geojson = {
         "type": "patron",
         "name": "Denise Lafoy",
         "address": "26 Rue de Bassano",
-        "link": ""
+        "link": "",
+        "tier": "4"
       }
     },
     {
@@ -574,7 +609,8 @@ var geojson = {
         "type": "patron",
         "name": "Bernard Lestocquoy",
         "address": "80 Rue Lauriston",
-        "link": ""
+        "link": "",
+        "tier": "4"
       }
     },
     {
@@ -590,7 +626,8 @@ var geojson = {
         "type": "patron",
         "name": "Susanne Leveque",
         "address": "villa Mozart",
-        "link": ""
+        "link": "",
+        "tier": "4"
       }
     },
     {
@@ -606,7 +643,8 @@ var geojson = {
         "type": "patron",
         "name": "Eda Lord",
         "address": "7 Rue Beethoven",
-        "link": "http://www.worldcat.org/identities/lccn-n97-65874/"
+        "link": "http://www.worldcat.org/identities/lccn-n97-65874/",
+        "tier": "3"
       }
     },
     {
@@ -622,7 +660,8 @@ var geojson = {
         "type": "patron",
         "name": "Leonard Merrick",
         "address": "59 Avenue Marceau",
-        "link": "https://en.wikipedia.org/wiki/Leonard_Merrick"
+        "link": "https://en.wikipedia.org/wiki/Leonard_Merrick",
+        "tier": "3"
       }
     },
     {
@@ -638,7 +677,8 @@ var geojson = {
         "type": "patron",
         "name": "Mathilde Merzbach",
         "address": "25 Rue de la Faisanderie",
-        "link": ""
+        "link": "",
+        "tier": "4"
       }
     },
     {
@@ -654,7 +694,8 @@ var geojson = {
         "type": "patron",
         "name": "Florence Meyer",
         "address": "79 Boulevard de Montmorency",
-        "link": ""
+        "link": "",
+        "tier": "4"
       }
     },
     {
@@ -670,7 +711,8 @@ var geojson = {
         "type": "patron",
         "name": "Louise Ottensooser",
         "address": "40 Rue du Bois de Boulogne",
-        "link": ""
+        "link": "",
+        "tier": "4"
       }
     },
     {
@@ -686,7 +728,8 @@ var geojson = {
         "type": "patron",
         "name": "Mrs. Perkins",
         "address": "15 Rue de Franqueville",
-        "link": ""
+        "link": "",
+        "tier": "4"
       }
     },
     {
@@ -702,7 +745,8 @@ var geojson = {
         "type": "patron",
         "name": "Virginia Pfeiffer",
         "address": "30 Rue Lauriston",
-        "link": ""
+        "link": "",
+        "tier": "4"
       }
     },
     {
@@ -718,7 +762,8 @@ var geojson = {
         "type": "patron",
         "name": "Michael Poorilz",
         "address": "43 Avenue de Versailles",
-        "link": ""
+        "link": "",
+        "tier": "4"
       }
     },
     {
@@ -734,7 +779,8 @@ var geojson = {
         "type": "patron",
         "name": "Jacques Porel",
         "address": "8 Rue Laurent-Pichat",
-        "link": "https://fr.wikipedia.org/wiki/Paul_Porel"
+        "link": "https://fr.wikipedia.org/wiki/Paul_Porel",
+        "tier": "3"
       }
     },
     {
@@ -750,7 +796,8 @@ var geojson = {
         "type": "patron",
         "name": "Mme Quennell",
         "address": "51 Avenue Marceau",
-        "link": ""
+        "link": "",
+        "tier": "4"
       }
     },
     {
@@ -766,7 +813,8 @@ var geojson = {
         "type": "patron",
         "name": "Irene de Rose",
         "address": "8 Rue Massenet",
-        "link": ""
+        "link": "",
+        "tier": "4"
       }
     },
     {
@@ -782,7 +830,8 @@ var geojson = {
         "type": "patron",
         "name": "Comtesse de Raoussel",
         "address": "67 Avenue Henri Martin",
-        "link": ""
+        "link": "",
+        "tier": "4"
       }
     },
     {
@@ -798,7 +847,8 @@ var geojson = {
         "type": "patron",
         "name": "John Reid",
         "address": "80 Rue Lauriston",
-        "link": ""
+        "link": "",
+        "tier": "4"
       }
     },
     {
@@ -814,7 +864,8 @@ var geojson = {
         "type": "patron",
         "name": "Mrs. P. Richard",
         "address": "4 square Alboni",
-        "link": ""
+        "link": "",
+        "tier": "4"
       }
     },
     {
@@ -830,7 +881,8 @@ var geojson = {
         "type": "patron",
         "name": "Fanny Rirachowsky",
         "address": "24 place du Trocadero et du 11 Novembre",
-        "link": ""
+        "link": "",
+        "tier": "4"
       }
     },
     {
@@ -846,7 +898,8 @@ var geojson = {
         "type": "patron",
         "name": "Anatole Rivoallan",
         "address": "8 Rue Jean de la Fontaine",
-        "link": "http://data.bnf.fr/12504034/anatole_rivoallan/"
+        "link": "http://data.bnf.fr/12504034/anatole_rivoallan/",
+        "tier": "3"
       }
     },
     {
@@ -860,9 +913,10 @@ var geojson = {
       },
       "properties": {
         "type": "patron",
-        "name": "Georges Roditi    ",
+        "name": "Georges Roditi",
         "address": "21 Rue Singer",
-        "link": "https://fr.wikipedia.org/wiki/Georges_Roditi"
+        "link": "https://fr.wikipedia.org/wiki/Georges_Roditi",
+        "tier": "3"
       }
     },
     {
@@ -878,7 +932,8 @@ var geojson = {
         "type": "patron",
         "name": "Mabel Schirmer",
         "address": "11 Avenue Victor Hugo",
-        "link": "http://viaf.org/viaf/121790572/#Schirmer,_Mabel,_1897-1994"
+        "link": "http://viaf.org/viaf/121790572/#Schirmer,_Mabel,_1897-1994",
+        "tier": "3"
       }
     },
     {
@@ -894,7 +949,8 @@ var geojson = {
         "type": "patron",
         "name": "Mme Schueller",
         "address": "74 Avenue Paul Doumer",
-        "link": ""
+        "link": "",
+        "tier": "4"
       }
     },
     {
@@ -910,7 +966,8 @@ var geojson = {
         "type": "patron",
         "name": "Jean Seillier",
         "address": "28 Avenue de New York",
-        "link": "http://viaf.org/viaf/207691176"
+        "link": "http://viaf.org/viaf/207691176",
+        "tier": "3"
       }
     },
     {
@@ -926,7 +983,8 @@ var geojson = {
         "type": "patron",
         "name": "Phyllis Shapiro",
         "address": "55 Rue de la Faisanderie",
-        "link": "http://viaf.org/viaf/9613339"
+        "link": "http://viaf.org/viaf/9613339",
+        "tier": "3"
       }
     },
     {
@@ -942,7 +1000,8 @@ var geojson = {
         "type": "patron",
         "name": "James Sheldon",
         "address": "9 Rue Chalgrin",
-        "link": "http://viaf.org/viaf/269882229"
+        "link": "http://viaf.org/viaf/269882229",
+        "tier": "3"
       }
     },
     {
@@ -958,7 +1017,8 @@ var geojson = {
         "type": "patron",
         "name": "Marcelle Sibon",
         "address": "20 Avenue Victor Hugo",
-        "link": "http://viaf.org/viaf/59089297/"
+        "link": "http://viaf.org/viaf/59089297/",
+        "tier": "3"
       }
     },
     {
@@ -974,7 +1034,8 @@ var geojson = {
         "type": "patron",
         "name": "Claude Spira",
         "address": "15 Boulevard de Beausejour",
-        "link": "http://viaf.org/viaf/233066962"
+        "link": "http://viaf.org/viaf/233066962",
+        "tier": "3"
       }
     },
     {
@@ -990,7 +1051,8 @@ var geojson = {
         "type": "patron",
         "name": "Leo Stein",
         "address": "42 Avenue Henri Martin",
-        "link": "https://en.wikipedia.org/wiki/Leo_Stein"
+        "link": "https://en.wikipedia.org/wiki/Leo_Stein",
+        "tier": "3"
       }
     },
     {
@@ -1006,7 +1068,8 @@ var geojson = {
         "type": "patron",
         "name": "Comtesse de Vogue",
         "address": "24 Rue de Franqueville",
-        "link": ""
+        "link": "",
+        "tier": "4"
       }
     },
     {
@@ -1022,7 +1085,8 @@ var geojson = {
         "type": "patron",
         "name": "Helene de Wendel",
         "address": "15 Rue de Franqueville",
-        "link": "http://viaf.org/viaf/15037087"
+        "link": "http://viaf.org/viaf/15037087",
+        "tier": "3"
       }
     },
     {
@@ -1038,7 +1102,8 @@ var geojson = {
         "type": "patron",
         "name": "Kitty Wickes",
         "address": "12 Rue Weber",
-        "link": ""
+        "link": "",
+        "tier": "4"
       }
     },
     {
@@ -1054,7 +1119,8 @@ var geojson = {
         "type": "patron",
         "name": "M. de Zogheb",
         "address": "29 Boulevard Jules Sandeau",
-        "link": ""
+        "link": "",
+        "tier": "4"
       }
     },
     {
@@ -1070,7 +1136,8 @@ var geojson = {
         "type": "essay_patron",
         "name": "F. Scott and Zelda Fitzgerald",
         "address": "10 rue Pergolese",
-        "link": "https://en.wikipedia.org/wiki/F._Scott_Fitzgerald"
+        "link": "https://en.wikipedia.org/wiki/F._Scott_Fitzgerald",
+        "tier": "1"
       }
     },
     {
@@ -1085,8 +1152,9 @@ var geojson = {
       "properties": {
         "type": "essay_patron",
         "name": "James Joyce ",
-        "address": "5 rue de l'Assomption",
-        "link": "https://en.wikipedia.org/wiki/James_Joyce"
+        "address": "5 rue de l’Assomption",
+        "link": "https://en.wikipedia.org/wiki/James_Joyce",
+        "tier": "1"
       }
     },
     {
@@ -1102,7 +1170,8 @@ var geojson = {
         "type": "essay_patron",
         "name": "Archibald MacLeish ",
         "address": "8 Rue Emile Augier",
-        "link": "https://en.wikipedia.org/wiki/Archibald_MacLeish"
+        "link": "https://en.wikipedia.org/wiki/Archibald_MacLeish",
+        "tier": "1"
       }
     },
     {
@@ -1118,7 +1187,8 @@ var geojson = {
         "type": "essay_patron",
         "name": "Nathalie Sarraute  ",
         "address": "12 Avenue Pierre 1er de Serbie",
-        "link": "https://en.wikipedia.org/wiki/Nathalie_Sarraute"
+        "link": "https://en.wikipedia.org/wiki/Nathalie_Sarraute",
+        "tier": "1"
       }
     },
     {
@@ -1134,7 +1204,8 @@ var geojson = {
         "type": "essay_patron",
         "name": "Philippe Soupault",
         "address": "4 Avenue Erlanger",
-        "link": "https://en.wikipedia.org/wiki/Philippe_Soupault"
+        "link": "https://en.wikipedia.org/wiki/Philippe_Soupault",
+        "tier": "1"
       }
     },
     {
@@ -1150,7 +1221,8 @@ var geojson = {
         "type": "essay_patron",
         "name": "Andre Spire   ",
         "address": "34 rue du Bois de Boulogne",
-        "link": "https://en.wikipedia.org/wiki/Andr%C3%A9_Spire"
+        "link": "https://en.wikipedia.org/wiki/Andr%C3%A9_Spire",
+        "tier": "1"
       }
     },
     {
@@ -1166,7 +1238,8 @@ var geojson = {
         "type": "essay_patron",
         "name": "Paul Valery ",
         "address": "40 rue Paul Valery",
-        "link": "https://en.wikipedia.org/wiki/Paul_Val%C3%A9ry"
+        "link": "https://en.wikipedia.org/wiki/Paul_Val%C3%A9ry",
+        "tier": "1"
       }
     },
     {
@@ -1182,7 +1255,8 @@ var geojson = {
         "type": "essay_patron",
         "name": "Henri Maspero  ",
         "address": "45 Rue Scheffer",
-        "link": "https://en.wikipedia.org/wiki/Henri_Maspero"
+        "link": "https://en.wikipedia.org/wiki/Henri_Maspero",
+        "tier": "1"
       }
     },
     {
@@ -1198,7 +1272,8 @@ var geojson = {
         "type": "essay_patron",
         "name": "Elvira de Alvear  ",
         "address": "40 rue Spontini",
-        "link": "http://www.genealogiafamiliar.net/getperson.php?personID=I10157&tree=BVCZ"
+        "link": "http://www.genealogiafamiliar.net/getperson.php?personID=I10157&tree=BVCZ",
+        "tier": "1"
       }
     },
     {
@@ -1214,7 +1289,8 @@ var geojson = {
         "type": "essay_patron",
         "name": "Iman Editorial Offices",
         "address": "5 Avenue Frederic-Le-Play",
-        "link": "http://catalogo.bne.es/uhtbin/cgisirsi/0/x/0/05?searchdata1=bise0000058852%7B001%7D"
+        "link": "http://catalogo.bne.es/uhtbin/cgisirsi/0/x/0/05?searchdata1=bise0000058852%7B001%7D",
+        "tier": "1"
       }
     },
     {
@@ -1230,7 +1306,8 @@ var geojson = {
         "type": "essay_patron",
         "name": "Ludmila Bloch-Savitsky",
         "address": "22 rue de Boulanvilliers",
-        "link": "https://fr.wikipedia.org/wiki/Ludmila_Savitzky"
+        "link": "https://fr.wikipedia.org/wiki/Ludmila_Savitzky",
+        "tier": "1"
       }
     },
     {
@@ -1246,7 +1323,8 @@ var geojson = {
         "type": "essay_patron",
         "name": "Marthe de Fels",
         "address": "31 rue Octave Feuillet",
-        "link": "http://www.academie-francaise.fr/marthe-de-fels"
+        "link": "http://www.academie-francaise.fr/marthe-de-fels",
+        "tier": "1"
       }
     },
     {
@@ -1262,7 +1340,8 @@ var geojson = {
         "type": "essay_patron",
         "name": "Louis Aragon  ",
         "address": "12 Rue Saint-Pierre",
-        "link": "https://en.wikipedia.org/wiki/Louis_Aragon"
+        "link": "https://en.wikipedia.org/wiki/Louis_Aragon",
+        "tier": "1"
       }
     },
     {
@@ -1278,7 +1357,8 @@ var geojson = {
         "type": "essay_patron",
         "name": "Lady Marjorie Williams",
         "address": "33 Rue de la Tour",
-        "link": ""
+        "link": "",
+        "tier": "1"
       }
     },
     {
@@ -1294,7 +1374,8 @@ var geojson = {
         "type": "essay_patron",
         "name": "Irene Wissotzky",
         "address": "37 rue Davioud",
-        "link": ""
+        "link": "",
+        "tier": "1"
       }
     },
     {
@@ -1309,8 +1390,9 @@ var geojson = {
       "properties": {
         "type": "essay_patron",
         "name": "Elisabeth de Roos",
-        "address": "14 Rue de l'Yvette",
-        "link": "https://nl.wikipedia.org/wiki/Elisabeth_de_Roos"
+        "address": "14 Rue de l’Yvette",
+        "link": "https://nl.wikipedia.org/wiki/Elisabeth_de_Roos",
+        "tier": "1"
       }
     },
     {
@@ -1325,9 +1407,10 @@ var geojson = {
       "properties": {
         "type": "essay_patron",
         "name": "Shakespeare and Company",
-        "address": "12 rue de l'Odeon",
-        "link": "https://en.wikipedia.org/wiki/Sylvia_Beach"
+        "address": "12 rue de l’Odeon",
+        "link": "https://en.wikipedia.org/wiki/Sylvia_Beach",
+        "tier": "1"
       }
     }
   ]
-};
+}
