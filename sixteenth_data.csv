@@ -1,9 +1,9 @@
 type,name,address,link,longitude,latitude
-inst,American Ambassador's Residence,2 Avenue Iena,,2.292068,48.863133
+inst,American Ambassador’s Residence,2 Avenue Iena,,2.292068,48.863133
 inst,American Ambulance Field Service ,21 rue Raynouard,http://www.afs.org/afs-history-and-archives/,2.282973,48.856981
 inst,American Embassy,5 rue de Chaillot,,2.295964,48.866205
 inst,American Hospital,63 boulevard Victor Hugo,https://www.american-hospital.org/en/american-hospital-of-paris/dedicated-to-freedom.html,2.272498,48.892927
-inst,American Women's Club,61 rue Boissiere,,2.287517,48.868247
+inst,American Women’s Club,61 rue Boissiere,,2.287517,48.868247
 patron,Marguerite Bassiano ,4 rue du Cirque,,2.314252,48.869816
 patron,Tania Whitman ,10 Avenue Alphonse XIII,,2.280912,48.856863
 patron,George Dillon,41 Rue Galilee,https://en.wikipedia.org/wiki/George_Dillon_(poet),2.296668,48.870308
@@ -52,8 +52,8 @@ patron,John Reid,80 Rue Lauriston,,2.288114,48.86765
 patron,Mrs. P. Richard,4 square Alboni,,2.286019,48.858259
 patron,Fanny Rirachowsky,24 place du Trocadero et du 11 Novembre,,2.286484,48.862856
 patron,Anatole Rivoallan,8 Rue Jean de la Fontaine,http://data.bnf.fr/12504034/anatole_rivoallan/,2.275096,48.852736
-patron,Georges Roditi    ,21 Rue Singer,https://fr.wikipedia.org/wiki/Georges_Roditi,2.276845,48.856223
-patron,Mabel Schirmer,11 Avenue Victor Hugo,"http://viaf.org/viaf/121790572/#Schirmer,_Mabel,_1897-1994",2.292385,48.872416
+patron,Georges Roditi,21 Rue Singer,https://fr.wikipedia.org/wiki/Georges_Roditi,2.276845,48.856223
+patron,Mabel Schirmer,11 Avenue Victor Hugo,http://viaf.org/viaf/121790572/#Schirmer,_Mabel,_1897-1994,2.292385,48.872416
 patron,Mme Schueller,74 Avenue Paul Doumer,,2.278396,48.859801
 patron,Jean Seillier,28 Avenue de New York,http://viaf.org/viaf/207691176,2.295518,48.863199
 patron,Phyllis Shapiro,55 Rue de la Faisanderie,http://viaf.org/viaf/9613339,2.276137,48.868492
@@ -66,7 +66,7 @@ patron,Helene de Wendel,15 Rue de Franqueville,http://viaf.org/viaf/15037087,2.2
 patron,Kitty Wickes,12 Rue Weber,,2.282196,48.875084
 patron,M. de Zogheb,29 Boulevard Jules Sandeau,,2.271932,48.863109
 essay_patron,F. Scott and Zelda Fitzgerald,10 rue Pergolese,https://en.wikipedia.org/wiki/F._Scott_Fitzgerald,2.285509,48.875572
-essay_patron,James Joyce ,5 rue de l'Assomption,https://en.wikipedia.org/wiki/James_Joyce,2.275202,48.853026
+essay_patron,James Joyce ,5 rue de l’Assomption,https://en.wikipedia.org/wiki/James_Joyce,2.275202,48.853026
 essay_patron,Archibald MacLeish ,8 Rue Emile Augier,https://en.wikipedia.org/wiki/Archibald_MacLeish,2.273672,48.858739
 essay_patron,Nathalie Sarraute  ,12 Avenue Pierre 1er de Serbie,https://en.wikipedia.org/wiki/Nathalie_Sarraute,2.296871,48.866127
 essay_patron,Philippe Soupault,4 Avenue Erlanger,https://en.wikipedia.org/wiki/Philippe_Soupault,2.262271,48.847344
@@ -80,5 +80,5 @@ essay_patron,Marthe de Fels,31 rue Octave Feuillet,http://www.academie-francaise
 essay_patron,Louis Aragon  ,12 Rue Saint-Pierre,https://en.wikipedia.org/wiki/Louis_Aragon,2.271241,48.882396
 essay_patron,Lady Marjorie Williams,33 Rue de la Tour,,2.281636,48.859832
 essay_patron,Irene Wissotzky,37 rue Davioud,,2.270667,48.854457
-essay_patron,Elisabeth de Roos,14 Rue de l'Yvette,https://nl.wikipedia.org/wiki/Elisabeth_de_Roos,2.267403,48.853395
-essay_patron,Shakespeare and Company,12 rue de l'Odeon,https://en.wikipedia.org/wiki/Sylvia_Beach,2.338502,48.85089
+essay_patron,Elisabeth de Roos,14 Rue de l’Yvette,https://nl.wikipedia.org/wiki/Elisabeth_de_Roos,2.267403,48.853395
+essay_patron,Shakespeare and Company,12 rue de l’Odeon,https://en.wikipedia.org/wiki/Sylvia_Beach,2.338502,48.85089
