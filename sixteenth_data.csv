@@ -1,84 +1,84 @@
-type,name,address,link,longitude,latitude
-inst,American Ambassador’s Residence,2 Avenue Iena,,2.292068,48.863133
-inst,American Ambulance Field Service ,21 rue Raynouard,http://www.afs.org/afs-history-and-archives/,2.282973,48.856981
-inst,American Embassy,5 rue de Chaillot,,2.295964,48.866205
-inst,American Hospital,63 boulevard Victor Hugo,https://www.american-hospital.org/en/american-hospital-of-paris/dedicated-to-freedom.html,2.272498,48.892927
-inst,American Women’s Club,61 rue Boissiere,,2.287517,48.868247
-patron,Marguerite Bassiano ,4 rue du Cirque,,2.314252,48.869816
-patron,Tania Whitman ,10 Avenue Alphonse XIII,,2.280912,48.856863
-patron,George Dillon,41 Rue Galilee,https://en.wikipedia.org/wiki/George_Dillon_(poet),2.296668,48.870308
-patron,Mme Alexandre,1 Avenue de Versailles,,2.277359,48.850468
-patron,Mrs Thornton Baker,52 Ave Henri-Martin,,2.27756,48.864133
-patron,Helen Green Baldwin,30 Rue de Bassano,https://en.wikipedia.org/wiki/James_Mark_Baldwin,2.297872,48.869218
-patron,Bianca Bienenfeld,1 Rue Charles Dickens,https://en.wikipedia.org/wiki/Bianca_Lamblin,2.284887,48.857107
-patron,Claude Bourdet,47 Avenue Iena,https://en.wikipedia.org/wiki/Claude_Bourdet,2.295241,48.869592
-patron,Madame Busy,22 Rue de Alboni,,2.285579,48.858121
-patron,Ruth Camp,5 Square Lamartine,,2.275696,48.864919
-patron,Philip Carr,29 Rue de Montevideo,http://www.unz.org/Author/CarrPhilip,2.273427,48.866529
-patron,Jean de Cayeux,8 Rue Alfred-Bruneau,,2.277363,48.855607
-patron,Marcel-Georges Chambaz,10 Rue Greuze,http://www.worldcat.org/title/organes-de-gestion-de-la-societe-anonyme/oclc/492173276,2.284697,48.86388
-patron,Maryse Charbonnel,27 Avenue Pierre 1er de Serbie,,2.297881,48.867018
-patron,Elisabeth de Gramont,69 Rue Raynouard,https://en.wikipedia.org/wiki/%C3%89lisabeth_de_Gramont,2.278121,48.85387
-patron,W.H. Culbert,67 Avenue Victor Hugo,,2.287727,48.870533
-patron,Dalsace,5 Avenue Alphonse XIII,,2.281016,48.856399
-patron,Lucien Devies,177 Rue de la Pompe,https://fr.wikipedia.org/wiki/Lucien_Devies,2.283024,48.870658
-patron,Louise Hanson-Dyer,17 Rue Benjamin Franklin,https://en.wikipedia.org/wiki/Louise_Hanson_Dyer,2.285065,48.859991
-patron,Madame Espitalier,43 Rue Michel Ange,http://www.worldcat.org/search?q=au%3AEspitalier%2C+Albert%2C&dblist=638&fq=ap%3A%22espitalier%2C+albert%22&qt=facet_ap%3A,2.261609,48.844553
-patron,Mme des Francs,68 Rue Singer,,2.273487,48.857213
-patron,Cecile Fabre,47 Boulevard de Beausejour,,2.268025,48.856713
-patron,W.H. Finger,3 Rue Louis David,,2.281707,48.861891
-patron,Sybil Greenich,34 Rue Molitor,,2.261871,48.845253
-patron,Patrick Gregory,12 Villa Guibert,,2.276899,48.861615
-patron,Mr. Haltel,6 rue Boileau,,2.265922,48.847334
-patron,Jackson,50 Rue Desbordes-Valmore,,2.276099,48.859591
-patron,Pierre de Lanux,34 Rue des Vignes,https://en.wikipedia.org/wiki/Eyre_de_Lanux,2.276256,48.855869
-patron,Comtesse de Lubersac,1 Rue Charles Lamoureux,,2.278473,48.868557
-patron,Denise Lafoy,26 Rue de Bassano,,2.297712,48.869039
-patron,Bernard Lestocquoy,80 Rue Lauriston,,2.288115,48.86765
-patron,Susanne Leveque,villa Mozart,,2.269045,48.853371
-patron,Eda Lord,7 Rue Beethoven,http://www.worldcat.org/identities/lccn-n97-65874/,2.287137,48.858358
-patron,Leonard Merrick,59 Avenue Marceau,https://en.wikipedia.org/wiki/Leonard_Merrick,2.297644,48.869893
-patron,Mathilde Merzbach,25 Rue de la Faisanderie,,2.277102,48.870134
-patron,Florence Meyer,79 Boulevard de Montmorency,,2.261752,48.849768
-patron,Louise Ottensooser,40 Rue du Bois de Boulogne,,2.286462,48.875232
-patron,Mrs. Perkins,15 Rue de Franqueville,,2.271079,48.86062
-patron,Virginia Pfeiffer,30 Rue Lauriston,,2.291286,48.870812
-patron,Michael Poorilz,43 Avenue de Versailles,,2.275466,48.84879
-patron,Jacques Porel,8 Rue Laurent-Pichat,https://fr.wikipedia.org/wiki/Paul_Porel,2.282956,48.873719
-patron,Mme Quennell,51 Avenue Marceau,,2.298028,48.869313
-patron,Irene de Rose,8 Rue Massenet,,2.279401,48.858587
-patron,Comtesse de Raoussel,67 Avenue Henri Martin,,2.277342,48.863949
-patron,John Reid,80 Rue Lauriston,,2.288114,48.86765
-patron,Mrs. P. Richard,4 square Alboni,,2.286019,48.858259
-patron,Fanny Rirachowsky,24 place du Trocadero et du 11 Novembre,,2.286484,48.862856
-patron,Anatole Rivoallan,8 Rue Jean de la Fontaine,http://data.bnf.fr/12504034/anatole_rivoallan/,2.275096,48.852736
-patron,Georges Roditi,21 Rue Singer,https://fr.wikipedia.org/wiki/Georges_Roditi,2.276845,48.856223
-patron,Mabel Schirmer,11 Avenue Victor Hugo,http://viaf.org/viaf/121790572/#Schirmer,_Mabel,_1897-1994,2.292385,48.872416
-patron,Mme Schueller,74 Avenue Paul Doumer,,2.278396,48.859801
-patron,Jean Seillier,28 Avenue de New York,http://viaf.org/viaf/207691176,2.295518,48.863199
-patron,Phyllis Shapiro,55 Rue de la Faisanderie,http://viaf.org/viaf/9613339,2.276137,48.868492
-patron,James Sheldon,9 Rue Chalgrin,http://viaf.org/viaf/269882229,2.288574,48.874281
-patron,Marcelle Sibon,20 Avenue Victor Hugo,http://viaf.org/viaf/59089297/,2.291257,48.872443
-patron,Claude Spira,15 Boulevard de Beausejour,http://viaf.org/viaf/233066962,2.271463,48.857593
-patron,Leo Stein,42 Avenue Henri Martin,https://en.wikipedia.org/wiki/Leo_Stein,2.277565,48.864133
-patron,Comtesse de Vogue,24 Rue de Franqueville,,2.269917,48.86227
-patron,Helene de Wendel,15 Rue de Franqueville,http://viaf.org/viaf/15037087,2.271079,48.86062
-patron,Kitty Wickes,12 Rue Weber,,2.282196,48.875084
-patron,M. de Zogheb,29 Boulevard Jules Sandeau,,2.271932,48.863109
-essay_patron,F. Scott and Zelda Fitzgerald,10 rue Pergolese,https://en.wikipedia.org/wiki/F._Scott_Fitzgerald,2.285509,48.875572
-essay_patron,James Joyce ,5 rue de l’Assomption,https://en.wikipedia.org/wiki/James_Joyce,2.275202,48.853026
-essay_patron,Archibald MacLeish ,8 Rue Emile Augier,https://en.wikipedia.org/wiki/Archibald_MacLeish,2.273672,48.858739
-essay_patron,Nathalie Sarraute  ,12 Avenue Pierre 1er de Serbie,https://en.wikipedia.org/wiki/Nathalie_Sarraute,2.296871,48.866127
-essay_patron,Philippe Soupault,4 Avenue Erlanger,https://en.wikipedia.org/wiki/Philippe_Soupault,2.262271,48.847344
-essay_patron,Andre Spire   ,34 rue du Bois de Boulogne,https://en.wikipedia.org/wiki/Andr%C3%A9_Spire,2.25463,48.881453
-essay_patron,Paul Valery ,40 rue Paul Valery,https://en.wikipedia.org/wiki/Paul_Val%C3%A9ry,2.288434,48.871813
-essay_patron,Henri Maspero  ,45 Rue Scheffer,https://en.wikipedia.org/wiki/Henri_Maspero,2.281071,48.862543
-essay_patron,Elvira de Alvear  ,40 rue Spontini,http://www.genealogiafamiliar.net/getperson.php?personID=I10157&tree=BVCZ,2.277783,48.868671
-essay_patron,Iman Editorial Offices,5 Avenue Frederic-Le-Play,http://catalogo.bne.es/uhtbin/cgisirsi/0/x/0/05?searchdata1=bise0000058852%7B001%7D,2.304144,48.854555
-essay_patron,Ludmila Bloch-Savitsky,22 rue de Boulanvilliers,https://fr.wikipedia.org/wiki/Ludmila_Savitzky,2.275824,48.853789
-essay_patron,Marthe de Fels,31 rue Octave Feuillet,http://www.academie-francaise.fr/marthe-de-fels,2.270429,48.862084
-essay_patron,Louis Aragon  ,12 Rue Saint-Pierre,https://en.wikipedia.org/wiki/Louis_Aragon,2.271241,48.882396
-essay_patron,Lady Marjorie Williams,33 Rue de la Tour,,2.281636,48.859832
-essay_patron,Irene Wissotzky,37 rue Davioud,,2.270667,48.854457
-essay_patron,Elisabeth de Roos,14 Rue de l’Yvette,https://nl.wikipedia.org/wiki/Elisabeth_de_Roos,2.267403,48.853395
-essay_patron,Shakespeare and Company,12 rue de l’Odeon,https://en.wikipedia.org/wiki/Sylvia_Beach,2.338502,48.85089
+type,name,address,link,longitude,latitude,tier
+inst,American Ambassador’s Residence,2 Avenue Iena,,2.292068,48.863133,2
+inst,American Ambulance Field Service ,21 rue Raynouard,http://www.afs.org/afs-history-and-archives/,2.282973,48.856981,2
+inst,American Embassy,5 rue de Chaillot,,2.295964,48.866205,1
+inst,American Hospital,63 boulevard Victor Hugo,https://www.american-hospital.org/en/american-hospital-of-paris/dedicated-to-freedom.html,2.272498,48.892927,2
+inst,American Women’s Club,61 rue Boissiere,,2.287517,48.868247,2
+patron,Marguerite Bassiano ,4 rue du Cirque,,2.314252,48.869816,4
+patron,Tania Whitman ,10 Avenue Alphonse XIII,,2.280912,48.856863,4
+patron,George Dillon,41 Rue Galilee,https://en.wikipedia.org/wiki/George_Dillon_(poet),2.296668,48.870308,3
+patron,Mme Alexandre,1 Avenue de Versailles,,2.277359,48.850468,4
+patron,Mrs Thornton Baker,52 Ave Henri-Martin,,2.27756,48.864133,4
+patron,Helen Green Baldwin,30 Rue de Bassano,https://en.wikipedia.org/wiki/James_Mark_Baldwin,2.297872,48.869218,3
+patron,Bianca Bienenfeld,1 Rue Charles Dickens,https://en.wikipedia.org/wiki/Bianca_Lamblin,2.284887,48.857107,3
+patron,Claude Bourdet,47 Avenue Iena,https://en.wikipedia.org/wiki/Claude_Bourdet,2.295241,48.869592,3
+patron,Madame Busy,22 Rue de Alboni,,2.285579,48.858121,4
+patron,Ruth Camp,5 Square Lamartine,,2.275696,48.864919,4
+patron,Philip Carr,29 Rue de Montevideo,http://www.unz.org/Author/CarrPhilip,2.273427,48.866529,3
+patron,Jean de Cayeux,8 Rue Alfred-Bruneau,,2.277363,48.855607,4
+patron,Marcel-Georges Chambaz,10 Rue Greuze,http://www.worldcat.org/title/organes-de-gestion-de-la-societe-anonyme/oclc/492173276,2.284697,48.86388,3
+patron,Maryse Charbonnel,27 Avenue Pierre 1er de Serbie,,2.297881,48.867018,4
+patron,Elisabeth de Gramont,69 Rue Raynouard,https://en.wikipedia.org/wiki/%C3%89lisabeth_de_Gramont,2.278121,48.85387,3
+patron,W.H. Culbert,67 Avenue Victor Hugo,,2.287727,48.870533,4
+patron,Dalsace,5 Avenue Alphonse XIII,,2.281016,48.856399,4
+patron,Lucien Devies,177 Rue de la Pompe,https://fr.wikipedia.org/wiki/Lucien_Devies,2.283024,48.870658,3
+patron,Louise Hanson-Dyer,17 Rue Benjamin Franklin,https://en.wikipedia.org/wiki/Louise_Hanson_Dyer,2.285065,48.859991,3
+patron,Madame Espitalier,43 Rue Michel Ange,http://www.worldcat.org/search?q=au%3AEspitalier%2C+Albert%2C&dblist=638&fq=ap%3A%22espitalier%2C+albert%22&qt=facet_ap%3A,2.261609,48.844553,3
+patron,Mme des Francs,68 Rue Singer,,2.273487,48.857213,4
+patron,Cecile Fabre,47 Boulevard de Beausejour,,2.268025,48.856713,4
+patron,W.H. Finger,3 Rue Louis David,,2.281707,48.861891,4
+patron,Sybil Greenich,34 Rue Molitor,,2.261871,48.845253,4
+patron,Patrick Gregory,12 Villa Guibert,,2.276899,48.861615,4
+patron,Mr. Haltel,6 rue Boileau,,2.265922,48.847334,4
+patron,Jackson,50 Rue Desbordes-Valmore,,2.276099,48.859591,4
+patron,Pierre de Lanux,34 Rue des Vignes,https://en.wikipedia.org/wiki/Eyre_de_Lanux,2.276256,48.855869,3
+patron,Comtesse de Lubersac,1 Rue Charles Lamoureux,,2.278473,48.868557,4
+patron,Denise Lafoy,26 Rue de Bassano,,2.297712,48.869039,4
+patron,Bernard Lestocquoy,80 Rue Lauriston,,2.288115,48.86765,4
+patron,Susanne Leveque,villa Mozart,,2.269045,48.853371,4
+patron,Eda Lord,7 Rue Beethoven,http://www.worldcat.org/identities/lccn-n97-65874/,2.287137,48.858358,3
+patron,Leonard Merrick,59 Avenue Marceau,https://en.wikipedia.org/wiki/Leonard_Merrick,2.297644,48.869893,3
+patron,Mathilde Merzbach,25 Rue de la Faisanderie,,2.277102,48.870134,4
+patron,Florence Meyer,79 Boulevard de Montmorency,,2.261752,48.849768,4
+patron,Louise Ottensooser,40 Rue du Bois de Boulogne,,2.286462,48.875232,4
+patron,Mrs. Perkins,15 Rue de Franqueville,,2.271079,48.86062,4
+patron,Virginia Pfeiffer,30 Rue Lauriston,,2.291286,48.870812,4
+patron,Michael Poorilz,43 Avenue de Versailles,,2.275466,48.84879,4
+patron,Jacques Porel,8 Rue Laurent-Pichat,https://fr.wikipedia.org/wiki/Paul_Porel,2.282956,48.873719,3
+patron,Mme Quennell,51 Avenue Marceau,,2.298028,48.869313,4
+patron,Irene de Rose,8 Rue Massenet,,2.279401,48.858587,4
+patron,Comtesse de Raoussel,67 Avenue Henri Martin,,2.277342,48.863949,4
+patron,John Reid,80 Rue Lauriston,,2.288114,48.86765,4
+patron,Mrs. P. Richard,4 square Alboni,,2.286019,48.858259,4
+patron,Fanny Rirachowsky,24 place du Trocadero et du 11 Novembre,,2.286484,48.862856,4
+patron,Anatole Rivoallan,8 Rue Jean de la Fontaine,http://data.bnf.fr/12504034/anatole_rivoallan/,2.275096,48.852736,3
+patron,Georges Roditi,21 Rue Singer,https://fr.wikipedia.org/wiki/Georges_Roditi,2.276845,48.856223,3
+patron,Mabel Schirmer,11 Avenue Victor Hugo,"http://viaf.org/viaf/121790572/#Schirmer,_Mabel,_1897-1994",2.292385,48.872416,3
+patron,Mme Schueller,74 Avenue Paul Doumer,,2.278396,48.859801,4
+patron,Jean Seillier,28 Avenue de New York,http://viaf.org/viaf/207691176,2.295518,48.863199,3
+patron,Phyllis Shapiro,55 Rue de la Faisanderie,http://viaf.org/viaf/9613339,2.276137,48.868492,3
+patron,James Sheldon,9 Rue Chalgrin,http://viaf.org/viaf/269882229,2.288574,48.874281,3
+patron,Marcelle Sibon,20 Avenue Victor Hugo,http://viaf.org/viaf/59089297/,2.291257,48.872443,3
+patron,Claude Spira,15 Boulevard de Beausejour,http://viaf.org/viaf/233066962,2.271463,48.857593,3
+patron,Leo Stein,42 Avenue Henri Martin,https://en.wikipedia.org/wiki/Leo_Stein,2.277565,48.864133,3
+patron,Comtesse de Vogue,24 Rue de Franqueville,,2.269917,48.86227,4
+patron,Helene de Wendel,15 Rue de Franqueville,http://viaf.org/viaf/15037087,2.271079,48.86062,3
+patron,Kitty Wickes,12 Rue Weber,,2.282196,48.875084,4
+patron,M. de Zogheb,29 Boulevard Jules Sandeau,,2.271932,48.863109,4
+essay_patron,F. Scott and Zelda Fitzgerald,10 rue Pergolese,https://en.wikipedia.org/wiki/F._Scott_Fitzgerald,2.285509,48.875572,1
+essay_patron,James Joyce ,5 rue de l’Assomption,https://en.wikipedia.org/wiki/James_Joyce,2.275202,48.853026,1
+essay_patron,Archibald MacLeish ,8 Rue Emile Augier,https://en.wikipedia.org/wiki/Archibald_MacLeish,2.273672,48.858739,1
+essay_patron,Nathalie Sarraute  ,12 Avenue Pierre 1er de Serbie,https://en.wikipedia.org/wiki/Nathalie_Sarraute,2.296871,48.866127,1
+essay_patron,Philippe Soupault,4 Avenue Erlanger,https://en.wikipedia.org/wiki/Philippe_Soupault,2.262271,48.847344,1
+essay_patron,Andre Spire   ,34 rue du Bois de Boulogne,https://en.wikipedia.org/wiki/Andr%C3%A9_Spire,2.25463,48.881453,1
+essay_patron,Paul Valery ,40 rue Paul Valery,https://en.wikipedia.org/wiki/Paul_Val%C3%A9ry,2.288434,48.871813,1
+essay_patron,Henri Maspero  ,45 Rue Scheffer,https://en.wikipedia.org/wiki/Henri_Maspero,2.281071,48.862543,1
+essay_patron,Elvira de Alvear  ,40 rue Spontini,http://www.genealogiafamiliar.net/getperson.php?personID=I10157&tree=BVCZ,2.277783,48.868671,1
+essay_patron,Iman Editorial Offices,5 Avenue Frederic-Le-Play,http://catalogo.bne.es/uhtbin/cgisirsi/0/x/0/05?searchdata1=bise0000058852%7B001%7D,2.304144,48.854555,1
+essay_patron,Ludmila Bloch-Savitsky,22 rue de Boulanvilliers,https://fr.wikipedia.org/wiki/Ludmila_Savitzky,2.275824,48.853789,1
+essay_patron,Marthe de Fels,31 rue Octave Feuillet,http://www.academie-francaise.fr/marthe-de-fels,2.270429,48.862084,1
+essay_patron,Louis Aragon  ,12 Rue Saint-Pierre,https://en.wikipedia.org/wiki/Louis_Aragon,2.271241,48.882396,1
+essay_patron,Lady Marjorie Williams,33 Rue de la Tour,,2.281636,48.859832,1
+essay_patron,Irene Wissotzky,37 rue Davioud,,2.270667,48.854457,1
+essay_patron,Elisabeth de Roos,14 Rue de l’Yvette,https://nl.wikipedia.org/wiki/Elisabeth_de_Roos,2.267403,48.853395,1
+essay_patron,Shakespeare and Company,12 rue de l’Odeon,https://en.wikipedia.org/wiki/Sylvia_Beach,2.338502,48.85089,1
