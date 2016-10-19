@@ -50,6 +50,7 @@
           },
           onEachFeature: function(feature, layer) {
             layer.bindPopup(getPopupContent(feature));
+            layer.bindTooltip(L.tooltip({opacity: 0.7}).setContent(feature.properties.name));
           }
         });
         map.addLayer(institutionsLayer);
@@ -60,6 +61,7 @@
           },
           onEachFeature: function(feature, layer) {
             layer.bindPopup(getPopupContent(feature));
+            layer.bindTooltip(L.tooltip({opacity: 0.7}).setContent(feature.properties.name));
           }
         });
         map.addLayer(patronsLayer);
@@ -76,23 +78,17 @@
         map.addLayer(essayPatronsLayer);
 
         map.on('zoomend', function(){
-          //var layers = [institutionsLayer, patronsLayer, essayPatronsLayer];
-          //layers.forEach(function(layer){
-          console.log("at " + map.getZoom());
-          
-          var features = Object.keys(essayPatronsLayer._layers);
-          if(map.getZoom() === 13){
+          var layers = [institutionsLayer, patronsLayer, essayPatronsLayer];
+          layers.forEach(function(layer){
+            var features = Object.keys(layer._layers);
             features.forEach(function(feature){
-              essayPatronsLayer._layers[feature].closeTooltip();
+              if(map.getZoom() - layer._layers[feature].feature.properties.tier >= 13){
+                layer._layers[feature].openTooltip();
+              } else {
+                layer._layers[feature].closeTooltip();
+              }
             });
-          } else {
-            features.forEach(function(feature){
-              essayPatronsLayer._layers[feature].openTooltip();
-            });
-          };
-
-
-          //});
+          });
         });
 
         function getCircleMarker(fillColor){
