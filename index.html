@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Sixteenth</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.1/dist/leaflet.css" />
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+      #map { height: 600px; }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>The Sixteenth Arrondissement</h1>
+      <div id="map"></div>
+
+      <!-- Latest compiled and minified JavaScript -->
+      <script src="https://code.jquery.com/jquery-3.1.0.slim.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      <script src="https://unpkg.com/leaflet@1.0.1/dist/leaflet.js"></script>
+      <script src="./sixteenth.geojson"></script>
+
+      <script>
+        var map = L.map('map', {zoom: 14, minZoom: 13, maxZoom: 18, center: [48.858217, 2.274852]});
+        L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
+          attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
+          subdomains: 'abcd',
+          maxZoom: 19
+        }).addTo(map);
+
+        var institutions = {"type": "FeatureCollection",
+          "features": geojson["features"].filter(function(obj){
+            if (obj["properties"]["type"] === "inst"){
+              return true;
+            } else {
+              return false;
+            }
+          })
+        };
+        var patrons = {"type": "FeatureCollection",
+          "features": geojson["features"].filter(function(obj){
+            if (obj["properties"]["type"] === "patron"){
+              return true;
+            } else {
+              return false;
+            }
+          })
+        };
+        var essayPatrons = {"type": "FeatureCollection",
+          "features": geojson["features"].filter(function(obj){
+            if (obj["properties"]["type"] === "essay_patron") {
+              return true;
+            } else {
+              return false;
+            }
+          })
+        };
+
+        function returnExternalLink(feature){
+          if(feature.properties.link === "") {
+            return "";
+          } else {
+            return "<br /><strong>External Link</strong>: <a href='" + feature.properties.link + "' target='_blank'>More info <span class='glyphicon glyphicon-new-window'></span></a>";
+          };
+        };
+
+        var radius = 6;
+        var fillOpacity = 0.7;
+
+        var institutionsLayer = L.geoJSON(institutions, {
+          pointToLayer: function(feature, latlng) {
+            return L.circleMarker(latlng, { radius: radius, fillColor: "#DD0000", color: "#666", weight: 1, opacity: 0.8, fillOpacity: fillOpacity });
+          },
+          onEachFeature: function(feature, layer) {
+            layer.bindPopup("<h4>" + feature.properties.name + "</h4><hr><p><strong>Address</strong>: " + feature.properties.address + returnExternalLink(feature) + "</p>");
+            layer.bindTooltip(L.tooltip({permanent: true, opacity: fillOpacity}).setContent(feature.properties.name));
+          }
+        });
+        map.addLayer(institutionsLayer);
+
+        var patronsLayer = L.geoJSON(patrons, {
+          pointToLayer: function(feature, latlng) {
+            return L.circleMarker(latlng, { radius: radius, fillColor: "#0000DD", color: "#666", weight: 1, opacity: 0.8, fillOpacity: fillOpacity });
+          },
+          onEachFeature: function(feature, layer) {
+            layer.bindPopup("<h4>" + feature.properties.name + "</h4><hr><p><strong>Address</strong>: " + feature.properties.address + returnExternalLink(feature) + "</p>")
+          }
+        });
+        map.addLayer(patronsLayer);
+
+        var essayPatronsLayer = L.geoJSON(essayPatrons, {
+          pointToLayer: function(feature, latlng) {
+            return L.circleMarker(latlng, { radius: radius, fillColor: "#00DD00", color: "#666", weight: 1, opacity: 0.8, fillOpacity: fillOpacity });
+          },
+          onEachFeature: function(feature, layer) {
+            layer.bindPopup("<h4>" + feature.properties.name + "</h4><hr><p><strong>Address</strong>: " + feature.properties.address + returnExternalLink(feature) + "</p>")
+          }
+        });
+        map.addLayer(essayPatronsLayer);
+
+      </script>
+
+  </body>
+</html>
