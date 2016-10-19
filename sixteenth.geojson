@@ -1,4 +1,4 @@
-geojson = {
+var geojson = {
   "type": "FeatureCollection",
   "features": [
     {
@@ -1330,4 +1330,4 @@ geojson = {
       }
     }
   ]
-}
+};
