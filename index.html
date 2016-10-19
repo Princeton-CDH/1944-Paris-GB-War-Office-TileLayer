@@ -66,15 +66,18 @@
           })
         };
 
-        function returnExternalLink(feature){
+        function getPopupContent(feature){
+          var content = "<h4>" + feature.properties.name + "</h4><hr><p><strong>Address</strong>: " + feature.properties.address; + returnExternalLink(feature) + "</p>")
           if(feature.properties.link === "") {
-            return "";
+            content = content + "";
           } else {
-            return "<br /><strong>External Link</strong>: <a href='" + feature.properties.link + "' target='_blank'>More info <span class='glyphicon glyphicon-new-window'></span></a>";
+            content = content + "<br /><strong>External Link</strong>: <a href='" + feature.properties.link + "' target='_blank'>More info <span class='glyphicon glyphicon-new-window'></span></a>";
           };
+          content = content + "</p>";
+          return content
         };
 
-        var radius = 6;
+        var radius = 4;
         var fillOpacity = 0.7;
 
         var institutionsLayer = L.geoJSON(institutions, {
@@ -82,8 +85,7 @@
             return L.circleMarker(latlng, { radius: radius, fillColor: "#DD0000", color: "#666", weight: 1, opacity: 0.8, fillOpacity: fillOpacity });
           },
           onEachFeature: function(feature, layer) {
-            layer.bindPopup("<h4>" + feature.properties.name + "</h4><hr><p><strong>Address</strong>: " + feature.properties.address + returnExternalLink(feature) + "</p>");
-            layer.bindTooltip(L.tooltip({permanent: true, opacity: fillOpacity}).setContent(feature.properties.name));
+            layer.bindPopup(getPopupContent(feature));
           }
         });
         map.addLayer(institutionsLayer);
@@ -93,7 +95,7 @@
             return L.circleMarker(latlng, { radius: radius, fillColor: "#0000DD", color: "#666", weight: 1, opacity: 0.8, fillOpacity: fillOpacity });
           },
           onEachFeature: function(feature, layer) {
-            layer.bindPopup("<h4>" + feature.properties.name + "</h4><hr><p><strong>Address</strong>: " + feature.properties.address + returnExternalLink(feature) + "</p>")
+            layer.bindPopup(getPopupContent(feature));
           }
         });
         map.addLayer(patronsLayer);
@@ -103,7 +105,8 @@
             return L.circleMarker(latlng, { radius: radius, fillColor: "#00DD00", color: "#666", weight: 1, opacity: 0.8, fillOpacity: fillOpacity });
           },
           onEachFeature: function(feature, layer) {
-            layer.bindPopup("<h4>" + feature.properties.name + "</h4><hr><p><strong>Address</strong>: " + feature.properties.address + returnExternalLink(feature) + "</p>")
+            layer.bindPopup(getPopupContent(feature));
+            layer.bindTooltip(L.tooltip({permanent: true, opacity: fillOpacity}).setContent(feature.properties.name));
           }
         });
         map.addLayer(essayPatronsLayer);
