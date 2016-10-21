@@ -32,7 +32,8 @@
         L.tileLayer('./1943mapdesat/{z}/{x}/{y}.png', {
           attribution: 'Princeton University',
           tms: true,
-          maxZoom: 19
+          maxZoom: 18,
+          maxNativeZoom: 16
         }).addTo(map);
 
         var institutions = filterFeatureCollection("inst");
