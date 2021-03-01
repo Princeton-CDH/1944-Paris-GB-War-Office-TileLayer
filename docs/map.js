@@ -1,6 +1,7 @@
-const markerOptions = fillColor => ({ 
+const markerOptions = ({fillColor, tier}) => ({ 
   radius: 6, 
   fillColor, 
+  tier,
   color: "#666", 
   weight: 1, 
   opacity: 0.8, 
@@ -9,7 +10,7 @@ const markerOptions = fillColor => ({
 const toolTip = name => L.tooltip({ opacity: 0.7 }).setContent(name);
 
 const map = L.map('map', {
-  zoom: 14, 
+  zoom: 13, 
   minZoom: 13, 
   maxZoom: 18, 
   center: [48.858217, 2.274852], 
@@ -29,34 +30,40 @@ L.tileLayer('./1943mapdesat/{z}/{x}/{y}.png', {
 // regular and addition for type.
 
 const additions = L.layerGroup(data.filter(e => e.type === "addition").map(element => 
-  L.circleMarker(element.coordinates, markerOptions("#e41a1c")).bindPopup(`
+  L.circleMarker(element.coordinates, markerOptions({fillColor: "#e41a1c", tier: element.rank})).bindPopup(`
     <h2>${element.name}</h2>
     <p>${element.addresses}</p>
     `).bindTooltip(toolTip(element.name))
 ));
 additions.addTo(map);
 
+console.log(additions);
+
 const regulars = L.layerGroup(data.filter(e => e.type === "regular").map(element => 
-  L.circleMarker(element.coordinates, markerOptions("#377eb8")).bindPopup(`
+  L.circleMarker(element.coordinates, markerOptions({ fillColor: "#377eb8", tier: element.rank} )).bindPopup(`
     <h2>${element.name}</h2>
     <p>${element.addresses}</p>
     `).bindTooltip(toolTip(element.name))
 ));
 regulars.addTo(map);
 
+const layers = [additions, regulars];
 
-/*
-map.on('zoomend', function(){
-  const layers = [additions, regulars];
-  layers.forEach(function(layer){
+const handleTooltips = () => {
+  layers.forEach( layer => {
     const features = Object.keys(layer._layers);
-    features.forEach(function(feature){
-      if(map.getZoom() - layer._layers[feature].feature.properties.tier >= 13){
+    features.forEach(feature => {
+      if(map.getZoom() - layer._layers[feature].options.tier >= 13){
         layer._layers[feature].openTooltip();
       } else {
         layer._layers[feature].closeTooltip();
       }
     });
   });
-});
-*/
+};
+
+map.on('zoomend', handleTooltips);
+
+console.log(map.getZoom());
+
+map.setZoom(14);
