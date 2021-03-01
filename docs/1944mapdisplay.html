@@ -5,20 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>The Sixteenth</title>
-    <!-- Latest compiled and minified CSS -->
-    <link type="text/css" rel="stylesheet" href="//fast.fonts.net/cssapi/7fb5ba0d-983d-4ae8-b9ac-5427b521e494.css"/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.1/dist/leaflet.css" />
-    <link rel='stylesheet' id='dashicons-css'  href='http://mep.princeton.edu/wp-includes/css/dashicons.min.css?ver=4.6.1' type='text/css' media='all' />
-    <link rel='stylesheet' id='admin-bar-css'  href='http://mep.princeton.edu/wp-includes/css/admin-bar.min.css?ver=4.6.1' type='text/css' media='all' />
-    <link rel='stylesheet' id='bootstrap-css'  href='http://mep.princeton.edu/wp-content/themes/mep/css/bootstrap.min.css?ver=3.0.3' type='text/css' media='all' />
-    <link rel='stylesheet' id='wpbase-css'  href='http://mep.princeton.edu/wp-content/themes/mep/css/wpbase.min.css?ver=3.0.3' type='text/css' media='all' />
-    <link rel='stylesheet' id='font-awesome-css'  href='http://mep.princeton.edu/wp-content/themes/mep/css/font-awesome.min.css?ver=4.0.3' type='text/css' media='all' />
-    <link rel='stylesheet' id='magnific-css'  href='http://mep.princeton.edu/wp-content/themes/mep/css/magnific.css?ver=0.9.4' type='text/css' media='all' />
-    <link rel='stylesheet' id='theme-style-css'  href='http://mep.princeton.edu/wp-content/themes/mep/style.css?ver=3.0.3' type='text/css' media='all' />
-    <link rel='stylesheet' id='googleFonts-css'  href='http://fonts.googleapis.com/css?family=Montserrat%3A400%2C700&#038;ver=4.6.1' type='text/css' media='all' />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+      integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+      crossorigin=""
+    />
+    <link rel='stylesheet' id='googleFonts-css'  
+    href='http://fonts.googleapis.com/css?family=Montserrat%3A400%2C700&#038;ver=4.6.1'
+    type='text/css' media='all' />
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -43,102 +36,10 @@
   </head>
   <body>
     <div id="map"></div>
-      <!-- Latest compiled and minified JavaScript -->
-      <script src="https://code.jquery.com/jquery-3.1.0.slim.min.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-      <script src="https://unpkg.com/leaflet@1.0.1/dist/leaflet.js"></script>
-      <script src="./sixteenth.geojson"></script>
-
-      <script>
-        var map = L.map('map', {zoom: 14, minZoom: 13, maxZoom: 18, center: [48.858217, 2.274852], maxBounds: L.latLngBounds(L.latLng(48.80993843039284,2.42069331467708), L.latLng(48.90647632023956, 2.24692255999388)) });
-        L.tileLayer('./1943mapdesat/{z}/{x}/{y}.png', {
-          attribution: '<a href="http://map.princeton.edu/search/viewer/#/2A3A6937-9E78-4896-B594-F48FE1A492F9" target="_blank">1944, Great Britain War Office</a>, ℅ <a href="http://map.princeton.edu" target="_blank">Princeton Univ. Lib.</a>',
-          tms: true,
-          maxZoom: 18,
-          maxNativeZoom: 16
-        }).addTo(map);
-
-        var institutions = filterFeatureCollection("inst");
-
-        var patrons = filterFeatureCollection("patron");
-        
-        var essayPatrons = filterFeatureCollection("essay_patron");
-
-        var institutionsLayer = L.geoJSON(institutions, {
-          pointToLayer: function(feature, latlng) {
-            return L.circleMarker(latlng, getCircleMarker("#DD0000"));
-          },
-          onEachFeature: function(feature, layer) {
-            layer.bindPopup(getPopupContent(feature));
-            layer.bindTooltip(L.tooltip({opacity: 0.7}).setContent(feature.properties.name));
-          }
-        });
-        map.addLayer(institutionsLayer);
-
-        var patronsLayer = L.geoJSON(patrons, {
-          pointToLayer: function(feature, latlng) {
-            return L.circleMarker(latlng, getCircleMarker("#0000DD"));
-          },
-          onEachFeature: function(feature, layer) {
-            layer.bindPopup(getPopupContent(feature));
-            layer.bindTooltip(L.tooltip({opacity: 0.7}).setContent(feature.properties.name));
-          }
-        });
-        map.addLayer(patronsLayer);
-
-        var essayPatronsLayer = L.geoJSON(essayPatrons, {
-          pointToLayer: function(feature, latlng) {
-            return L.circleMarker(latlng, getCircleMarker("#00DD00"))
-          },
-          onEachFeature: function(feature, layer) {
-            layer.bindPopup(getPopupContent(feature));
-            layer.bindTooltip(L.tooltip({permanent: true, opacity: 0.7}).setContent(feature.properties.name));
-          }
-        });
-        map.addLayer(essayPatronsLayer);
-
-        map.on('zoomend', function(){
-          var layers = [institutionsLayer, patronsLayer, essayPatronsLayer];
-          layers.forEach(function(layer){
-            var features = Object.keys(layer._layers);
-            features.forEach(function(feature){
-              if(map.getZoom() - layer._layers[feature].feature.properties.tier >= 13){
-                layer._layers[feature].openTooltip();
-              } else {
-                layer._layers[feature].closeTooltip();
-              }
-            });
-          });
-        });
-
-        function getCircleMarker(fillColor){
-          return { radius: 4, fillColor: fillColor, color: "#666", weight: 1, opacity: 0.8, fillOpacity: 0.7 };
-        };
-
-        function filterFeatureCollection(string){
-          var collection = {"type": "FeatureCollection",
-            "features": geojson["features"].filter(function(obj){
-              if (obj["properties"]["type"] === string){
-                return true;
-              } else {
-                return false;
-              }
-            })
-          };
-          return collection;
-        };
-
-        function getPopupContent(feature){
-          var content = "<h3>" + feature.properties.name + "</h3><hr><p><strong>Address</strong>: " + feature.properties.address;
-          if(feature.properties.link === "") {
-            content = content + "";
-          } else {
-            content = content + "<br /><a href='" + feature.properties.link + "' target='_blank'>More info <span class='glyphicon glyphicon-new-window'></span></a>";
-          };
-          content = content + "</p>";
-          return content;
-        };
-
-      </script>
-  </body>
+      <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+        crossorigin=""></script>
+      <script src="./data.js"></script>
+      <script src="./map.js"></script>
+ </body>
 </html>
